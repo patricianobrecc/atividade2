@@ -1,7 +1,3 @@
-#include <stdio.h>
-#include <math.h>
-
-
 int main(){
 
     char menu[] = "Bem-vindo(a)! Digite: 1 a 9 ou 0 para sair:\n";
@@ -27,7 +23,7 @@ int main(){
                 printf("\nVoce digitou %d", escolha);
                 break;
             default:
-                printf("\nVoce digitou uma opção inexistente");
+                printf("\nVoce digitou uma opÃ§Ã£o inexistente");
                 break;
         }
         
